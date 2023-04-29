@@ -125,7 +125,7 @@ main {
 
 .sec-title .edit {
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #006FB2;
   color: white;
   place-items: center;
@@ -143,7 +143,7 @@ input[type='text'] {
   background-color: #292B33;
   border: none;
   color: white;
-  margin: 1rem;
+  width: 100%;
   font-size: 16px;
 }
 
@@ -179,7 +179,7 @@ s {
 
 .sec-list .edit:hover {
   cursor: pointer;
-  background-color: #3e414b;
+  background-color: #135985;
 }
 
 .sec-list .delete {
@@ -195,7 +195,7 @@ s {
 
 .sec-list .delete:hover {
   cursor: pointer;
-  background-color: #3e414b;
+  background-color: #5a0f0f;
 }
 
 .itens {
@@ -214,7 +214,7 @@ ul {
 li {
   margin: 1rem;
   background-color: #292B33;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0 1rem;
   display: flex;
   justify-content: space-between;
